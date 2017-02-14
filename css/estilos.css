@@ -1,0 +1,296 @@
+*
+{
+	margin:0;
+}
+body{
+	font-family: Indie Flower;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #02010a;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header
+{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 0px solid #000000;
+	color: white;
+	font-size: 20px;
+
+}
+
+header .c1,.c2
+{
+	margin: 1%;
+	padding: 1%;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding-top: 2%
+
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.container .cabeza, .cuerpo, .pie, .paisajes, .retratos{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+
+.c1, .c2, .c3, .c5a, .c5b, .ps1, .ps2, .ps3, .ps4, .ps5, .ps6, .rt1, .rt2, .rt3, .rt4, .rt5, .rt6 {
+	width: 100%;
+}
+
+
+h1
+{
+	text-shadow: 2px 2px  #02010a;
+	text-align: left;
+	margin: 10px;
+	font-size: 20px;
+}
+
+
+section .c3
+{
+	background-color: #82c3a6;
+	padding: 1%;
+}
+
+
+section .c5a, .c5b
+{
+	background-color: #d5c75f;
+	padding: 4%;
+}
+
+section .ps1, .ps2, .ps3, .ps4, .ps5, .ps6, .rt1, .rt2, .rt3, .rt4, .rt5, .rt6
+{
+	background-color: #d5c75f;
+	padding: 4%;	
+}
+
+.img00
+{
+	width: 90%;
+	text-align: center;
+	margin: 10px;
+	border:  2px solid black;
+}
+
+.img02:hover{
+    transform: translate(20px, -5px);
+    -ms-transform: translate(20px, -5px); /* IE 9 */
+    -webkit-transform: translate(20px, -5px); /* Safari y Chrome */
+    -moz-transform: translate(20px, -5px); /* Firefox */
+	background: #82c3a6 bottom right;
+    padding-right:  2px;
+    padding-bottom: 2px;
+}
+
+.img01, .img02
+
+{
+	width: 100%;
+	text-align: center;
+	border:  2px solid black;
+	margin-top: 10px;
+}
+
+.img01:hover
+{
+    transform: rotate(10deg);
+   -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+	background: #82c3a6 bottom right;
+    padding-right:  2px;
+    padding-bottom: 2px;
+}
+
+.psj01, .psj02, .psj03, .psj04, .psj05, .psj06, .ret01, .ret02, .ret03, .ret04, .ret05, .ret06
+
+{
+	width: 90%;
+	text-align: center;
+	border:  2px solid black;
+	margin-top: 10px;
+}
+
+.ps1 .psj01, .rt1 .ret01
+{
+    -webkit-filter:blur(2px);
+	filter:blur(2px);
+}
+.ps2 .psj02, .rt2 .ret02
+{
+    -webkit-filter:grayscale(100%);
+	filter:grayscale(100%); 	
+}
+
+.ps3 .psj03, .rt3 .ret03
+{
+    -webkit-filter:invert(100%);
+	filter:invert(100%); 	
+}
+
+.ps4 .psj04, .rt4 .ret04
+{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%); 	
+
+}
+
+.ps5 .psj05, .rt5 .ret05
+{
+	-webkit-filter:opacity(60%);
+	filter:opacity(60%); 	
+
+}
+
+.ps6 .psj06, .rt1 .ret06
+{
+	-webkit-filter:contrast(50%);
+	filter:contrast(50%); 	
+
+}
+footer
+{
+	
+	background-color: #C6d5c5;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border: 0px solid #000000;
+	
+}
+
+footer .f1, .f2, .f3, .f4 {
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	padding-right:  1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	text-align: left;
+}
+
+
+li a:link   
+{   
+	text-decoration:none;   
+ 	color: white;
+}
+
+section a:link   
+{   
+ 	color: black;
+}
+
+footer a:link   
+{   
+	text-decoration:none;   
+ 	color: black;
+}
+
+footer h4
+{
+	font-size: 16px;
+}
+
+footer p
+{
+	font-size: 12px;
+}
+
+@media (min-width: 600px) {
+	.c5a, .c5b {
+		width: 42%;
+	}
+
+	.c3
+	{
+		width: 100%;
+	}
+
+	.c1, .c2
+	{
+		width: 46%
+	}
+	.ps1, .ps2, .ps3, .ps4, .ps5, .ps6, .rt1, .rt2, .rt3, .rt4, .rt5, .rt6
+	{
+		width: 25.3%;
+	}
+
+
+	footer p
+	{
+		font-size: 12px;
+	}
+
+
+	.f1, .f2, .f3, .f4
+	{
+		width: 21%;
+		height: 120px
+	}
+
+
+}
+
+
+@media screen and (max-width: 480px)
+{
+	.container
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.c1, .c2, .c3, .c5a, .c5b
+	{
+	width: 100%;
+	}
+
+	.f1, .f2, .f3, .f4
+	{
+		width: 100%;
+		height: 130px;
+	}
+
+	.ps1, .ps2, .ps3, .ps4, .ps5, .ps6, .rt1, .rt2, .rt3, .rt4, .rt5, .rt6
+	{
+		width: 100%;
+	}
+
+
+	header h1
+	{
+		width:100%;
+		text-align: center;
+	}
+	ul
+	{
+		text-align: center;
+	}
+}
+
